@@ -1,0 +1,48 @@
+
+
+.container {
+    background-color: #d7e1e7;
+    border-radius: 12px;
+    display: flex;
+    gap: 4rem;
+    height: 30rem;
+    width: 50rem;
+    margin: 3rem auto;
+    padding: 4rem;
+
+}
+
+.poster {
+    border: 8px solid black;
+    box-shadow: 0 24px 32px -16px rgb(0,0,0,0.8);
+}
+
+
+.container h2 {
+    font-size: 1.75rem;
+
+}
+
+.container p {
+    margin-top: 12px;
+    font-size: 1rem;
+    line-height: 1.3rem;
+}
+
+.container button {
+    background-color: #121212;
+    border: 0;
+    border-radius: 0.45rem;
+    box-shadow: 0 2px 4px rgba(0,0, 0, 0.2);
+    color: #d7e1e7;
+    font-size: 0.75rem;
+    margin-top: 1rem;
+    padding: 0.55rem;
+    transition: .3s;
+
+}
+
+.container button:hover {
+    cursor: pointer;
+    margin-left: .5rem;
+}
